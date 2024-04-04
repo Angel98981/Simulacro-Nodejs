@@ -1,0 +1,51 @@
+ 
+- COMANDOS INICIALES.  
+    1. npm init -y 
+    2. npm i express mongodb mongoose
+    3. npm i -g nodemon
+    4. npm i body-parser
+    5. npm i --save bcrypt jsonwebtoken passport passport-jwt
+
+- CREAR SRC
+    1. config (database.js)
+    2. controller (entidadController.js)
+    3. middleware (auth.js)
+    4. models(entidadModel.js)
+    5. routes(index.js)
+    6. services()
+- CREAR UN index.js
+
+--CREAR COLECCION---
+----DATABASE.JS------
+1. constante mongoose e inicializacion de variable
+2. conexion a la base de datos 
+3. funcion que inicializa la data de la base de datos 
+4. exportar la funcion de conectar la base de datos 
+
+----CONTROLLER-----
+
+1. inicializa variables
+2. la logica de negocio en la variable studentController, todo el CRUD
+
+
+----Model-----
+
+1. varibale de mongoose 
+2. creo el esquema, entidadSchema 
+3. const Student=mongoose.model('students', studentsSchema);
+4 exporto
+
+----ROUTES-----
+
+1. ruta protegida que requiere autenticacion 
+
+---AUTH----
+
+
+
+-----PROBAR----
+1. entrar al SRC
+2. entrar a servicios 
+3. node index.js
+
+
